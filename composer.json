@@ -1,0 +1,16 @@
+{
+    "authors": [
+        {
+            "name": "Mean Team Leidos",
+            "email": "mean.team.lm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "suggest": {
+        "ext-pdo": "For database storage support",
+        "ext-pdo_mysql": "For MySQL database support",
+        "ext-pdo_sqlite": "For SQLite3 database support"
+    }
+}
