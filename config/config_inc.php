@@ -35,10 +35,10 @@
 # detailed comments.
 
 # --- Database Configuration ---
-$g_hostname      = 'ec2-107-20-141-145.compute-1.amazonaws.com:5432'; #'localhost';
-$g_db_username   = 'jooliyaqjdcumq'; #'mantisdbuser';
-$g_db_password   = '1f87e64994e2c5ca00eb16a1462a9939de4dc4dc515744af9343c4a93095c366'; #'';
-$g_database_name = 'd3bv47hltmsuqu'; #'bugtracker';
+$g_hostname      = '10.25.194.25:5432'; #'localhost';
+$g_db_username   = 'shiftleft'; #'mantisdbuser';
+$g_db_password   = 'Left2015'; #'';
+$g_database_name = 'nicsbt'; #'bugtracker';
 $g_db_type       = 'pgsql'; #'mysqli';
 
 #Host: ec2-107-20-141-145.compute-1.amazonaws.com
