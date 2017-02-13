@@ -35,7 +35,7 @@
 # detailed comments.
 
 # --- Database Configuration ---
-$g_hostname      = '10.25.194.25:5432'; #'localhost';
+$g_hostname      = 's19aaf5.esef.addev.ssa.gov:5432'; #'localhost';
 $g_db_username   = 'shiftleft'; #'mantisdbuser';
 $g_db_password   = 'Left2015'; #'';
 $g_database_name = 'nicsbt'; #'bugtracker';
