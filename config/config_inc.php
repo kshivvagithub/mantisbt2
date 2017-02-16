@@ -35,12 +35,19 @@
 # detailed comments.
 
 # --- Database Configuration ---
-$g_hostname      = 'localhost';
-$g_db_username   = 'mantisdbuser';
-$g_db_password   = '';
-$g_database_name = 'bugtracker';
-$g_db_type       = 'mysqli';
+#$g_hostname      = 'localhost';
+#$g_db_username   = 'mantisdbuser';
+#$g_db_password   = '';
+#$g_database_name = 'bugtracker';
+#$g_db_type       = 'mysqli';
 
+$g_hostname      = 'ec2-23-21-169-238.compute-1.amazonaws.com';
+$g_database_name = 'd759c6ban25jkq';
+$g_db_username   = 'thvybpywvyvqpb';
+$g_db_password   = '93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da6e72';
+$g_db_type       = 'pgsql';
+$g_db_port       = '5432';
+  
 #Host: ec2-107-20-141-145.compute-1.amazonaws.com
 #Database d3bv47hltmsuqu
 #User jooliyaqjdcumq
