@@ -50,7 +50,7 @@ $g_db_type       = 'mysqli';
 #Heroku CLI heroku pg:psql postgresql-animated-84935 --app mantisbt210
 
 # --- Security ---
-$g_crypto_master_salt = '';	#  Random string of at least 16 chars, unique to the installation
+$g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
 $g_allow_signup				= ON;
