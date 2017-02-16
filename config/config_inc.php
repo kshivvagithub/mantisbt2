@@ -35,11 +35,11 @@
 # detailed comments.
 
 # --- Database Configuration ---
-$g_hostname      = 's19aaf5.esef.addev.ssa.gov:5432'; #'localhost';
-$g_db_username   = 'shiftleft'; #'mantisdbuser';
-$g_db_password   = 'Left2015'; #'';
-$g_database_name = 'nicsbt'; #'bugtracker';
-$g_db_type       = 'pgsql'; #'mysqli';
+$g_hostname      = 'localhost';
+$g_db_username   = 'mantisdbuser';
+$g_db_password   = '';
+$g_database_name = 'bugtracker';
+$g_db_type       = 'mysqli';
 
 #Host: ec2-107-20-141-145.compute-1.amazonaws.com
 #Database d3bv47hltmsuqu
