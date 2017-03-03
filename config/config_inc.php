@@ -41,6 +41,13 @@ $g_db_password   = '93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da
 $g_database_name = 'd759c6ban25jkq'; #'bugtracker';
 $g_db_type       = 'pgsql'; #'mysqli';
 
+$g_hostname      = 'ec2-23-21-169-238.compute-1.amazonaws.com';
+$g_database_name = 'd759c6ban25jkq';
+$g_db_username   = 'thvybpywvyvqpb';
+$g_db_password   = '93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da6e72';
+$g_db_type       = 'pgsql';
+$g_db_port       = '5432';
+  
 #Host: ec2-107-20-141-145.compute-1.amazonaws.com
 #Database d3bv47hltmsuqu
 #User jooliyaqjdcumq
@@ -50,7 +57,7 @@ $g_db_type       = 'pgsql'; #'mysqli';
 #Heroku CLI heroku pg:psql postgresql-animated-84935 --app mantisbt210
 
 # --- Security ---
-$g_crypto_master_salt = '';	#  Random string of at least 16 chars, unique to the installation
+$g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
 $g_allow_signup				= ON;
