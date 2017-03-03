@@ -6,7 +6,8 @@
         }
     ],
     "require": {
-        "php": ">=5.2.0"
+        "php": ">=5.2.0",
+        "herrera-io/silex-pdo": "^1.2"
     },
     "suggest": {
         "ext-pdo": "For database storage support",
