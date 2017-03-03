@@ -41,14 +41,14 @@ $g_db_password   = '93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da
 $g_database_name = 'd759c6ban25jkq'; #'bugtracker';
 $g_db_type       = 'pgsql'; #'mysqli';
 
-$dbopts = parse_url(getenv('postgres://thvybpywvyvqpb:93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da6e72@ec2-23-21-169-238.compute-1.amazonaws.com:5432/d759c6ban25jkq'));
-$app->register(new Herrera\Pdo\PdoServiceProvider(),
-               array(
-                   'pdo.dsn' => 'pgsql:dbname='.ltrim($dbopts["path"],'/').';host='.$dbopts["host"] . ';port=' . $dbopts["port"],
-                   'pdo.username' => $dbopts["user"],
-                   'pdo.password' => $dbopts["pass"]
-               )
-);
+#$dbopts = parse_url(getenv('postgres://thvybpywvyvqpb:93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da6e72@ec2-23-21-169-238.compute-1.amazonaws.com:5432/d759c6ban25jkq'));
+#$app->register(new Herrera\Pdo\PdoServiceProvider(),
+#               array(
+#                   'pdo.dsn' => 'pgsql:dbname='.ltrim($dbopts["path"],'/').';host='.$dbopts["host"] . ';port=' . $dbopts["port"],
+#                   'pdo.username' => $dbopts["user"],
+#                   'pdo.password' => $dbopts["pass"]
+#               )
+#);
   
 #Host: ec2-107-20-141-145.compute-1.amazonaws.com
 #Database d3bv47hltmsuqu
