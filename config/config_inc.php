@@ -42,15 +42,15 @@
 #$g_db_type       = 'pgsql'; #'mysqli';
 
 # updated from ClearDB MySQL configurations--START
-$g_hostname               = 'us-cdbr-iron-east-03.cleardb.net';
-$g_db_type                = 'mysqli';
-$g_database_name          = 'heroku_ca21c9c9f2fc36f';
-$g_db_username            = 'b86345ac7bdd6a';
-$g_db_password            = '550c1d13';
+#$g_hostname               = 'us-cdbr-iron-east-03.cleardb.net';
+#$g_db_type                = 'mysqli';
+#$g_database_name          = 'heroku_ca21c9c9f2fc36f';
+#$g_db_username            = 'b86345ac7bdd6a';
+#$g_db_password            = '550c1d13';
 
-$g_default_timezone       = 'UTC';
+#$g_default_timezone       = 'UTC';
 
-$g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
+#$g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
 # updated from ClearDB MySQL configurations--END
 
 # --- Security ---
