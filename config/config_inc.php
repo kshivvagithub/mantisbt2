@@ -57,18 +57,30 @@ $g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
 #$g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
-$g_allow_signup				= ON;
+#$g_allow_signup				= ON;
 $g_allow_anonymous_login	= OFF;
 $g_anonymous_account		= '';
 
 # --- Email Configuration ---
-$g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
-$g_smtp_host			= 'localhost';			# used with PHPMAILER_METHOD_SMTP
-$g_smtp_username		= '';					# used with PHPMAILER_METHOD_SMTP
-$g_smtp_password		= '';					# used with PHPMAILER_METHOD_SMTP
-$g_webmaster_email      = 'webmaster@example.com';
-$g_from_email           = 'noreply@example.com';	# the "From: " field in emails
-$g_return_path_email    = 'admin@example.com';	# the return address for bounced mail
+
+$g_allow_signup    = ON;  //allows the users to sign up for a new account
+$g_enable_email_notification = ON; //enables the email messages
+$g_phpMailer_method = PHPMAILER_METHOD_SMTP;
+$g_smtp_host = 'smtp.gmail.com';
+$g_smtp_connection_mode = 'tls';
+$g_smtp_port = 587;
+$g_smtp_username = 'mean.team.lm@gmail.com'; //replace it with your gmail address
+$g_smtp_password = 'M3anT3am'; //replace it with your gmail password
+$g_administrator_email = 'mean.team.lm@gmail.com'; //this will be your administrator email address
+$g_from_name   = 'Mantis Bug Tracker';
+
+#$g_phpMailer_method		= PHPMAILER_METHOD_MAIL; # or PHPMAILER_METHOD_SMTP, PHPMAILER_METHOD_SENDMAIL
+#$g_smtp_host			= 'localhost';			# used with PHPMAILER_METHOD_SMTP
+#$g_smtp_username		= '';					# used with PHPMAILER_METHOD_SMTP
+#$g_smtp_password		= '';					# used with PHPMAILER_METHOD_SMTP
+#$g_webmaster_email      = 'webmaster@example.com';
+#$g_from_email           = 'noreply@example.com';	# the "From: " field in emails
+#$g_return_path_email    = 'admin@example.com';	# the return address for bounced mail
 # $g_from_name			= 'Mantis Bug Tracker';
 # $g_email_receive_own	= OFF;
 # $g_email_send_using_cronjob = OFF;
