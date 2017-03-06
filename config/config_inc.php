@@ -41,22 +41,17 @@
 #$g_database_name = 'd759c6ban25jkq'; #'bugtracker';
 #$g_db_type       = 'pgsql'; #'mysqli';
 
-#$dbopts = parse_url(getenv('postgres://thvybpywvyvqpb:93ab9105b262c045944d883d403eff6a3486b3156b3fec77712ed8e7d1da6e72@ec2-23-21-169-238.compute-1.amazonaws.com:5432/d759c6ban25jkq'));
-#$app->register(new Herrera\Pdo\PdoServiceProvider(),
-#               array(
-#                   'pdo.dsn' => 'pgsql:dbname='.ltrim($dbopts["path"],'/').';host='.$dbopts["host"] . ';port=' . $dbopts["port"],
-#                   'pdo.username' => $dbopts["user"],
-#                   'pdo.password' => $dbopts["pass"]
-#               )
-#);
-  
-#Host: ec2-107-20-141-145.compute-1.amazonaws.com
-#Database d3bv47hltmsuqu
-#User jooliyaqjdcumq
-#Port 5432
-#Password 1f87e64994e2c5ca00eb16a1462a9939de4dc4dc515744af9343c4a93095c366
-#URI postgres://jooliyaqjdcumq:1f87e64994e2c5ca00eb16a1462a9939de4dc4dc515744af9343c4a93095c366@ec2-107-20-141-145.compute-1.amazonaws.com:5432/d3bv47hltmsuqu
-#Heroku CLI heroku pg:psql postgresql-animated-84935 --app mantisbt210
+# updated from ClearDB MySQL configurations--START
+$g_hostname               = 'us-cdbr-iron-east-03.cleardb.net';
+$g_db_type                = 'mysqli';
+$g_database_name          = 'heroku_ca21c9c9f2fc36f';
+$g_db_username            = 'b86345ac7bdd6a';
+$g_db_password            = '550c1d13';
+
+$g_default_timezone       = 'UTC';
+
+$g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
+# updated from ClearDB MySQL configurations--END
 
 # --- Security ---
 $g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
