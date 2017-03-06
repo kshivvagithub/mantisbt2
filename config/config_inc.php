@@ -50,7 +50,7 @@ $g_db_password            = '3aca4ed0edf00062a3cacc1d550c6c299ab4fc0f96603217e8d
 
 $g_default_timezone       = 'UTC';
 
-#$g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
+$g_crypto_master_salt     = 'Pui+/l0FufHeUjdZjYz2tbQX0qaGQ0YTosTmi7KsKog=';
 # updated from ClearDB MySQL configurations--END
 
 # --- Security ---
