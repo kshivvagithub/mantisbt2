@@ -38,3 +38,17 @@ if( auth_is_user_authenticated() ) {
 } else {
 	print_header_redirect( 'login_page.php' );
 }
+
+# This function reads your DATABASE_URL configuration automatically set by Heroku
+# the return value is a string that will work with pg_connect
+function pg_connection_string() {
+  return "dbname=d5pbrn85ne30n4 host=ec2-54-235-84-244.compute-1.amazonaws.com port=5432 user=eyddadzsydbgab password=3aca4ed0edf00062a3cacc1d550c6c299ab4fc0f96603217e8d7fecd92726278 sslmode=require";
+}
+ 
+# Establish db connection
+$db = pg_connect(pg_connection_string());
+if (!$db) {
+    echo "Database connection error."
+    exit;
+}
+
