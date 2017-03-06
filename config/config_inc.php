@@ -42,11 +42,11 @@
 #$g_db_type       = 'pgsql'; #'mysqli';
 
 # updated from ClearDB MySQL configurations--START
-$g_hostname               = 'ec2-54-235-84-244.compute-1.amazonaws.com'; #'us-cdbr-iron-east-03.cleardb.net';
-$g_db_type                = 'pgsql'; #'mysqli';
-$g_database_name          = 'd5pbrn85ne30n4'; #'heroku_ca21c9c9f2fc36f';
-$g_db_username            = 'eyddadzsydbgab'; #'b86345ac7bdd6a';
-$g_db_password            = '3aca4ed0edf00062a3cacc1d550c6c299ab4fc0f96603217e8d7fecd92726278'; #'550c1d13';
+$g_hostname               = 'us-cdbr-iron-east-03.cleardb.net';
+$g_db_type                = 'mysqli';
+$g_database_name          = 'heroku_ca21c9c9f2fc36f';
+$g_db_username            = 'b86345ac7bdd6a';
+$g_db_password            = '550c1d13';
 
 $g_default_timezone       = 'UTC';
 
