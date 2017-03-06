@@ -54,7 +54,7 @@
 # updated from ClearDB MySQL configurations--END
 
 # --- Security ---
-$g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
+#$g_crypto_master_salt = 'MANTIS FOR LEIDOS INNOVATION';	#  Random string of at least 16 chars, unique to the installation
 
 # --- Anonymous Access / Signup ---
 $g_allow_signup				= ON;
